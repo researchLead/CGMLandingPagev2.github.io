@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .inline-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .inline-form select,
+  .inline-form input {
+    min-width: auto;
+    width: 100%;
+  }
+
+  .interest-form {
+    margin: 24px 0;
+    padding: 24px;
+  }
+}
